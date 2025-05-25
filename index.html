@@ -1,1 +1,130 @@
-<h1>Hello world!</h1>
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <style>
+      body {
+        font-family: 'Arial', sans-serif;
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+        color: #333;
+      }
+      header {
+        background: #2c3e50;
+        color: white;
+        padding: 1rem;
+        text-align: center;
+      }
+      nav {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        padding: 0.5rem;
+      }
+      nav a {
+        color: white;
+        text-decoration: none;
+      }
+      main {
+        padding: 2rem;
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+      footer {
+        background: #34495e;
+        color: white;
+        text-align: center;
+        padding: 1rem;
+        margin-top: 2rem;
+      }
+      .card {
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        padding: 1rem;
+        margin: 1rem 0;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to here</h1>
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact Us</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home">
+        <h2>Home</h2>
+        <div class="card">
+          <h3>News</h3>
+          <p>Welcome to here!</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris.</p>
+        </div>
+      </section>
+
+      <section id="about">
+        <h2>About</h2>
+        <div class="card">
+          <p>test for study</p>
+          <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="services">
+        <h2>Services</h2>
+        <div class="card">
+          <h3>void</h3>
+          <p>null</p>
+        </div>
+        <div class="card">
+          <h3>app</h3>
+          <p>iOS&Android</p>
+        </div>
+      </section>
+
+      <section id="contact">
+        <h2>Contact Us</h2>
+        <div class="card">
+          <form>
+            <div>
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            <div>
+              <label for="email">Emali:</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div>
+              <label for="message">message:</label>
+              <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+            <button type="submit">submit</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+       <p>&copy; 2025 Nameless13. <strong>All Rights Reserved</strong>.</p>
+      <p>contact: 185911653@qq.com</p>
+    </footer>
+
+    <!-- 保留Vite应用的挂载点 -->
+    <div id="app"></div>
+    
+    <!-- 如果需要使用原Vite应用的JS，保留下面这行 -->
+    <script type="module" crossorigin src="/assets/index-Dsv7TFjs.js"></script>
+  </body>
+</html>
